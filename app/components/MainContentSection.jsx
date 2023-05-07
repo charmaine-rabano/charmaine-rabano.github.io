@@ -1,6 +1,5 @@
 import React from 'react';
 import Typewriter from "typewriter-effect";
-import FooterSection from './FooterSection';
 
 export default function MainContentSection() {
   return (
@@ -34,7 +33,6 @@ export default function MainContentSection() {
           you can reach me here
         </a>
       </div>
-      <FooterSection />
     </div>
   );
 }
