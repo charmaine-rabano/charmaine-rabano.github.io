@@ -24,7 +24,7 @@ export default function MainContentSection() {
           />
         </div>
         <p className="mt-9 md:text-2xl">
-          <strong className="font-black">I’m Charmaine Eunice Rabano.</strong> A React front-end developer who can also create smart contracts using Solidity (web3). Someone who enjoys building things from nothing and bringing vision into life.{' '}
+          <strong className="font-black">I’m Charmaine Eunice Rabano.</strong> A React front-end developer who also creates smart contracts using Solidity (web3). Someone who enjoys building things from nothing and bringing vision into life.{' '}
         </p>
       </div>
       <div className="mt-14 lg:my-52">
