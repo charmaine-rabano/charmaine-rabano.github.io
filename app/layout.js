@@ -1,8 +1,5 @@
-// 'use client';
-
 import "./globals.css";
 import Theme from "./theme";
-// import { ThemeProvider } from 'next-themes'
 
 export const metadata = {
   title: "Charmaine Eunice - Portfolio",

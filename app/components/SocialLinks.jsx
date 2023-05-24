@@ -1,6 +1,5 @@
 import React from "react";
 import Image from "next/image";
-import Link from "next/link";
 
 import LinkedinIcon from "../images/svg/linkedin-icon.svg";
 import GithubIcon from "../images/svg/github-icon.svg";

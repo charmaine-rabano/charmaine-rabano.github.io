@@ -30,7 +30,7 @@ export default function MainContentSection() {
           bringing vision into life.{" "}
         </p>
       </div>
-      <div className="mt-14 lg:my-52">
+      <div className="mt-14 lg:mt-52 lg:mb-28">
         <h2 className="hidden font-bold mb-12 lg:block">Get In Touch</h2>
         <a href="mailto:charmaine.rabano@gmail.com" className="btn">
           you can reach me here
