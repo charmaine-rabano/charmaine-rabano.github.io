@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 import Typewriter from "typewriter-effect";
 
 export default function MainContentSection() {
@@ -7,7 +7,7 @@ export default function MainContentSection() {
       <div className="mt-11">
         <div className="accentText text-5xl md:text-7xl ">
           <Typewriter
-            options={{loop:true}}
+            options={{ loop: true }}
             onInit={(typewriter) => {
               typewriter
                 .typeString("hello, world!")
@@ -24,7 +24,10 @@ export default function MainContentSection() {
           />
         </div>
         <p className="mt-9 md:text-2xl">
-          <strong className="font-black">I’m Charmaine Eunice Rabano.</strong> A React front-end developer who also creates smart contracts using Solidity (web3). Someone who enjoys building things from nothing and bringing vision into life.{' '}
+          <strong className="font-black">I’m Charmaine Eunice Rabano.</strong> A
+          React front-end developer who also creates smart contracts using
+          Solidity (web3). Someone who enjoys building things from nothing and
+          bringing vision into life.{" "}
         </p>
       </div>
       <div className="mt-14 lg:my-52">
