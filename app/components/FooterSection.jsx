@@ -1,9 +1,8 @@
 import React from "react";
 import ThemeToggle from "./ThemeToggle";
 import SocialLinks from "./SocialLinks";
-import Image from "next/image";
 
-import ShortVerticalLine from "../images/svg/short-vertical-line.svg";
+import ShortVerticalLine from "./svg/ShortVerticalLine";
 
 export default function FooterSection() {
   return (
@@ -14,7 +13,7 @@ export default function FooterSection() {
           <p className="accentText text-sm">charmaine.rabano@gmail.com</p>
         </a>
         <ThemeToggle />
-        <Image src={ShortVerticalLine} alt="" />
+        <ShortVerticalLine />
       </div>
       <p className="accentText text-sm">
         Designed and Built by Charmaine Eunice Rabano

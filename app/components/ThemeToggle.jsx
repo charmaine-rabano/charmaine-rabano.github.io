@@ -1,9 +1,8 @@
 import React from "react";
 import { useTheme } from "next-themes";
-import Image from "next/image";
 
-import DarkModeIcon from "../images/svg/dark-mode-icon.svg";
-import LightModeIcon from "../images/svg/light-mode-icon.svg";
+import DarkModeIcon from "./svg/DarkModeIcon";
+import LightModeIcon from "./svg/LightModeIcon";
 
 export default function ThemeToggle() {
   const { theme, setTheme } = useTheme();
@@ -12,11 +11,11 @@ export default function ThemeToggle() {
     <>
       {theme === "light" ? (
         <button onClick={() => setTheme("dark")}>
-          <Image src={DarkModeIcon} alt="" />
+          <DarkModeIcon />
         </button>
       ) : (
         <button onClick={() => setTheme("light")}>
-          <Image src={LightModeIcon} alt="" />
+          <LightModeIcon />
         </button>
       )}
     </>
