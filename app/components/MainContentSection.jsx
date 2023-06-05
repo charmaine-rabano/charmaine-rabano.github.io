@@ -1,5 +1,7 @@
 import React from "react";
 import Typewriter from "typewriter-effect";
+import { IoIosArrowRoundForward } from "react-icons/io";
+import Link from "next/link";
 
 export default function MainContentSection() {
   return (
@@ -30,8 +32,14 @@ export default function MainContentSection() {
           bringing vision into life.{" "}
         </p>
       </div>
-      <div className="mt-14 lg:mt-52 lg:mb-28">
-        <h2 className="hidden font-bold mb-12 lg:block">Get In Touch</h2>
+      <Link href="/practicum">
+        <div className="flex flex-row items-center justify-center gap-2 mt-52 px-2 py-8 border border-custom-black dark:border-custom-white rounded-sm hover:gradientBg">
+          <p>View my practicum presentation</p>
+          <IoIosArrowRoundForward size="1.5em" />
+        </div>
+      </Link>
+      <div className="mt-52 mb-28">
+        <h2 className="font-bold mb-12">Get In Touch</h2>
         <a href="mailto:charmaine.rabano@gmail.com" className="btn">
           you can reach me here
         </a>

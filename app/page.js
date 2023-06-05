@@ -16,8 +16,8 @@ export default function Home() {
     <main>
       <HeaderSection />
       <MainContentSection />
-      <div ref={footerRef} />
       <FooterSection />
+      <div ref={footerRef} />
       {!isInViewport && <FloatingBar />}
       <FloatingLines />
     </main>

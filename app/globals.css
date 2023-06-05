@@ -6,7 +6,7 @@
 
 @layer base {
   body {
-    @apply font-OpenSans text-xl bg-custom-white text-custom-black dark:bg-custom-black dark:text-custom-white;
+    @apply font-OpenSans text-xl bg-custom-white text-custom-black dark:bg-custom-black dark:text-custom-white scroll-smooth;
   }
   h1 {
     @apply text-7xl;
@@ -36,5 +36,11 @@
   }
   .accentText {
     @apply font-Inconsolata text-custom-dark-pink;
+  }
+  .gradientBg {
+    @apply bg-gradient-to-r from-[#dd7f7a] via-[#b466a7] to-[#006cc1];
+  }
+  .singleSlide {
+    @apply h-screen flex flex-col justify-center items-center text-custom-black snap-start;
   }
 }
