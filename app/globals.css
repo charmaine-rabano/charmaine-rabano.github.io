@@ -14,6 +14,9 @@
   h2 {
     @apply text-5xl;
   }
+  ul {
+    @apply list-disc pl-7 leading-relaxed;
+  }
 }
 
 @layer components {
@@ -42,5 +45,8 @@
   }
   .singleSlide {
     @apply h-screen flex flex-col justify-center items-center text-custom-black snap-start;
+  }
+  .carousel {
+    @apply flex flex-row gap-5 overflow-auto w-11/12 pb-4 h-2/3;
   }
 }
