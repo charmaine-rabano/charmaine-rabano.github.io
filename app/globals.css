@@ -6,7 +6,7 @@
 
 @layer base {
   body {
-    @apply font-OpenSans text-xl bg-custom-white text-custom-black dark:bg-custom-black dark:text-custom-white scroll-smooth;
+    @apply font-OpenSans text-lg lg:text-xl bg-custom-white text-custom-black dark:bg-custom-black dark:text-custom-white scroll-smooth;
   }
   h1 {
     @apply text-7xl;

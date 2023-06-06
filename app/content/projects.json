@@ -1,0 +1,41 @@
+[
+  {
+    "title": "Mapúa MCL ACM website",
+    "description": "An organizational website for the Mapúa MCL ACM Student Chapter to introduce the organization and post events.",
+    "tech": ["React", "Gatsby", "Tailwind CSS", "Netlify CMS"],
+    "github": "https://github.com/MCL-ACM/acm.mcl-ccis.net",
+    "live": "https://acm.mcl-ccis.net/",
+    "image": "/images/projects/acm.png"
+  },
+  {
+    "title": "Seat Save",
+    "description": "A seat reservation system for our school’s library to help observe COVID-19 safety protocols. Made with 3 other people as a Software Engineering 2 course project. I led the UI/UX and front-end development for the system’s website.",
+    "tech": [
+      "React",
+      "Next.js",
+      "Tailwind CSS",
+      "C#",
+      "Xamarin",
+      "ASP.NET WebApi"
+    ],
+    "github": "https://github.com/LipatJob/SeatSave",
+    "live": "",
+    "image": "/images/projects/seatsave.png"
+  },
+  {
+    "title": "Portfolio website",
+    "description": "A portfolio website to showcase my projects.",
+    "tech": ["React", "Next.js", "Tailwind CSS"],
+    "github": "https://github.com/charmaine-rabano/my-portfolio",
+    "live": "https://charmaineeunice.com/",
+    "image": "/images/projects/portfolio.png"
+  },
+  {
+    "title": "Pokedex",
+    "description": "A simple catalog website to view Pokémon data using PokéAPI.",
+    "tech": ["React", "Next.js", "Tailwind CSS"],
+    "github": "https://github.com/charmaine-rabano/pokedex",
+    "live": "https://pokedex.charmaineeunice.com/",
+    "image": "/images/projects/pokedex.png"
+  }
+]
