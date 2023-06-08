@@ -2,7 +2,21 @@ import React from "react";
 import Link from "next/link";
 import Typewriter from "typewriter-effect";
 import { IoIosArrowRoundForward } from "react-icons/io";
-import { SiHtml5, SiCss3, SiTailwindcss, SiBootstrap, SiJavascript, SiReact, SiNextdotjs, SiGatsby, SiVuedotjs, SiCsharp, SiPython, SiMysql, SiSolidity } from "react-icons/si";
+import {
+  SiHtml5,
+  SiCss3,
+  SiTailwindcss,
+  SiBootstrap,
+  SiJavascript,
+  SiReact,
+  SiNextdotjs,
+  SiGatsby,
+  SiVuedotjs,
+  SiCsharp,
+  SiPython,
+  SiMysql,
+  SiSolidity,
+} from "react-icons/si";
 import ProjectItem from "./ProjectItem";
 
 import allProjects from "../content/projects.json";
@@ -31,9 +45,9 @@ export default function MainContentSection() {
         </div>
         <p className="mt-9 text-xl md:text-2xl">
           <strong className="font-black">I’m Charmaine Eunice Rabano.</strong> A
-          React front-end developer who also creates smart contracts using
-          Solidity (web3). Someone who enjoys building things from nothing and
-          bringing vision into life.{" "}
+          React front-end developer who also creates dApps using Solidity.
+          Someone who enjoys building things from nothing and bringing vision
+          into life.{" "}
         </p>
       </div>
       <div className="mt-10 flex flex-wrap gap-2 justify-center text-3xl">
@@ -54,8 +68,14 @@ export default function MainContentSection() {
       <div className="mt-52">
         <h2 className="font-bold mb-12">Projects</h2>
         <div>
-          {allProjects.map(p => {
-            return <ProjectItem key={p.title} project={p} first={() => p === allProjects[0]} />
+          {allProjects.map((p) => {
+            return (
+              <ProjectItem
+                key={p.title}
+                project={p}
+                first={() => p === allProjects[0]}
+              />
+            );
           })}
         </div>
       </div>

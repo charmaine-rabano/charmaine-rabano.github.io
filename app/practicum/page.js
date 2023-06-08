@@ -106,13 +106,13 @@ export default function Practicum() {
 
   return (
     <>
-      <main className="md:hidden h-screen w-screen p-10 flex flex-col gap-5 items-center justify-center text-center">
+      <div className="md:hidden h-screen w-screen p-10 flex flex-col gap-5 items-center justify-center text-center">
         <p>Please view this page on a larger screen.</p>
         <Link href="/" className="flex flex-row items-center">
           <IoIosArrowRoundBack />
           <p className="text-sm">Back to home</p>
         </Link>
-      </main>
+      </div>
       <main className="gradientBg snap-y snap-mandatory h-screen overflow-auto hidden md:block">
         <div className="absolute top-3 w-[94%] left-1/2 -translate-x-1/2 text-custom-white">
           <div className="pinkBorder bg-custom-black/60 h-[60px] px-5 flex flex-row items-center justify-between">
@@ -121,7 +121,9 @@ export default function Practicum() {
               onClick={() => setShowMenu(!showMenu)}
             >
               <IoIosMenu />
-              <p className="font-Inconsolata font-bold">Practicum Presentation</p>
+              <p className="font-Inconsolata font-bold">
+                Practicum Presentation
+              </p>
             </button>
             <Link href="/" className="flex flex-row items-center">
               <IoIosArrowRoundBack />
@@ -217,7 +219,9 @@ export default function Practicum() {
                   <li>Project Management</li>
                   <li>Workplace Management</li>
                 </ul>
-                <p className="font-bold mt-5">Specialization Learning Modules</p>
+                <p className="font-bold mt-5">
+                  Specialization Learning Modules
+                </p>
                 <ul>
                   <li>User Experience</li>
                   <li>Web Development</li>
@@ -243,7 +247,7 @@ export default function Practicum() {
           <h2 className="font-bold">Presentation of Output</h2>
         </div>
         <div className="singleSlide">
-          <p className="font-bold mb-6">
+          <p className="font-bold">
             User Experience: Sketching for UX Designers
           </p>
           <div className="carousel">
@@ -255,15 +259,20 @@ export default function Practicum() {
           </div>
         </div>
         <div className="singleSlide">
-          <p className="font-bold mb-6">User Experience: Figma for UX Design</p>
+          <p className="font-bold">User Experience: Figma for UX Design</p>
           <div className="carousel justify-center">
             <Image src={ux6} alt="" className="w-auto" />
           </div>
         </div>
         <div className="singleSlide">
-          <p className="font-bold mb-6">
-            Web Development: React.js Code Challenges
-          </p>
+          <p className="font-bold">Web Development: React.js Code Challenges</p>
+          <a
+            href="https://github.com/charmaine-rabano/pixel-art"
+            target="_blank"
+            className="underline text-base"
+          >
+            Link to project
+          </a>
           <div className="carousel">
             <Image src={react1} alt="" className="w-auto" />
             <Image src={react2} alt="" className="w-auto" />
@@ -272,9 +281,16 @@ export default function Practicum() {
           </div>
         </div>
         <div className="singleSlide">
-          <p className="font-bold mb-6">
+          <p className="font-bold">
             Web Development: Django Essential Training
           </p>
+          <a
+            href="https://github.com/charmaine-rabano/smartnotes"
+            target="_blank"
+            className="underline text-base"
+          >
+            Link to project
+          </a>
           <div className="carousel">
             <Image src={django1} alt="" className="w-auto" />
             <Image src={django2} alt="" className="w-auto" />
@@ -285,9 +301,16 @@ export default function Practicum() {
           </div>
         </div>
         <div className="singleSlide">
-          <p className="font-bold mb-6">
+          <p className="font-bold">
             Mobile Application Development: React Native Essential Training
           </p>
+          <a
+            href="https://snack.expo.dev/@charmaine-rabano/target-sum"
+            target="_blank"
+            className="underline text-base"
+          >
+            Link to project
+          </a>
           <div className="carousel">
             <Image src={reactnative01} alt="" className="w-auto" />
             <Image src={reactnative02} alt="" className="w-auto" />
@@ -304,9 +327,16 @@ export default function Practicum() {
           </div>
         </div>
         <div className="singleSlide">
-          <p className="font-bold mb-6">
+          <p className="font-bold">
             Mobile Application Development: Building Your First iOS App
           </p>
+          <a
+            href="https://github.com/charmaine-rabano/tip-calculator-ios"
+            target="_blank"
+            className="underline text-base"
+          >
+            Link to project
+          </a>
           <div className="carousel">
             <Image src={swift1} alt="" className="w-auto" />
             <Image src={swift2} alt="" className="w-auto" />
@@ -318,13 +348,55 @@ export default function Practicum() {
           </div>
         </div>
         <div className="singleSlide">
-          <p className="font-bold mb-6">Metacrafters: JS PROOF Beginner</p>
+          <p className="font-bold">Metacrafters: JS PROOF Beginner</p>
+          <p>
+            <a
+              href="https://github.com/charmaine-rabano/js-proof-project"
+              target="_blank"
+              className="underline text-base"
+            >
+              Link to project
+            </a>
+            &nbsp;
+            <a
+              href="https://www.loom.com/share/1103c25e445f45939000c8450b8ade3a"
+              target="_blank"
+              className="underline text-base"
+            >
+              Link to code walkthrough
+            </a>
+          </p>
           <div className="carousel justify-center">
             <Image src={metacrafters01} alt="" className="w-auto" />
           </div>
         </div>
         <div className="singleSlide">
-          <p className="font-bold mb-6">Metacrafters: ETH PROOF Beginner</p>
+          <p className="font-bold">Metacrafters: ETH PROOF Beginner</p>
+          <p>
+            <a
+              href="https://github.com/charmaine-rabano/eth-proof-beginner-project"
+              target="_blank"
+              className="underline text-base"
+            >
+              Link to project
+            </a>
+            &nbsp;
+            <a
+              href="https://www.loom.com/share/c886e0040b434b1a8f8a6a0e18b6ecd0"
+              target="_blank"
+              className="underline text-base"
+            >
+              Link to code walkthrough
+            </a>
+            &nbsp;
+            <a
+              href="https://github.com/charmaine-rabano/eth-proof"
+              target="_blank"
+              className="underline text-base"
+            >
+              Link to challenges
+            </a>
+          </p>
           <div className="carousel">
             <Image src={metacrafters02} alt="" className="w-auto" />
             <Image src={metacrafters03} alt="" className="w-auto" />
@@ -332,8 +404,41 @@ export default function Practicum() {
           </div>
         </div>
         <div className="singleSlide">
-          <p className="font-bold mb-6">
+          <p className="font-bold">
             Metacrafters: ETH + AVAX PROOF Intermediate
+          </p>
+          <p>
+            <a
+              href="https://github.com/charmaine-rabano/eth-proof-intermediate-project1"
+              target="_blank"
+              className="underline text-base"
+            >
+              Link to project 1
+            </a>
+            &nbsp;
+            <a
+              href="https://github.com/charmaine-rabano/eth-proof-intermediate-project2"
+              target="_blank"
+              className="underline text-base"
+            >
+              Link to project 2
+            </a>
+            &nbsp;
+            <a
+              href="https://github.com/charmaine-rabano/eth-proof-intermediate-project3"
+              target="_blank"
+              className="underline text-base"
+            >
+              Link to project 3
+            </a>
+            &nbsp;
+            <a
+              href="https://github.com/charmaine-rabano/eth-avax-proof-project"
+              target="_blank"
+              className="underline text-base"
+            >
+              Link to project 4
+            </a>
           </p>
           <div className="carousel">
             <Image src={metacrafters05} alt="" className="w-auto" />
@@ -403,23 +508,24 @@ export default function Practicum() {
         <div className="singleSlide">
           <div className="pinkBorder bg-custom-white/60 w-10/12 mx-auto p-5 flex flex-col gap-5">
             <p>
-              Aside from the certificates earned, I gained valuable learnings from
-              this Practicum engagement. These include both soft skills and hard
-              skills.
+              Aside from the certificates earned, I gained valuable learnings
+              from this Practicum engagement. These include both soft skills and
+              hard skills.
             </p>
             <p>
               I gained a deeper understanding of creativity, realizing that
               creative thinking is not solely about design but about generating
               great ideas. Recognizing that the quality of an idea can only be
-              assessed by comparing it to many others, I learned the importance of
-              generating ideas quickly. Furthermore, I gained knowledge about
-              agile project management and its comparison to other methodologies.
-              I understood the processes and roles involved in an agile project.
-              Additionally, I learned about effective communication through verbal
-              and nonverbal cues. I learned how to remove clutters that may take
-              up my time and harm my time management. I learned about email, text,
-              and phone business etiquette, and how to handle work and meetings in
-              remote or hybrid setup.
+              assessed by comparing it to many others, I learned the importance
+              of generating ideas quickly. Furthermore, I gained knowledge about
+              agile project management and its comparison to other
+              methodologies. I understood the processes and roles involved in an
+              agile project. Additionally, I learned about effective
+              communication through verbal and nonverbal cues. I learned how to
+              remove clutters that may take up my time and harm my time
+              management. I learned about email, text, and phone business
+              etiquette, and how to handle work and meetings in remote or hybrid
+              setup.
             </p>
           </div>
         </div>
@@ -428,8 +534,8 @@ export default function Practicum() {
             <p>
               I also gained knowledge about user experience (UX) design. I
               discovered that UX design goes beyond creating apps and user
-              interfaces; it involves research to understand users and develop the
-              best solutions for their needs.
+              interfaces; it involves research to understand users and develop
+              the best solutions for their needs.
             </p>
             <p>
               Furthermore, I became aware of the current technologies in web and
@@ -441,35 +547,35 @@ export default function Practicum() {
             </p>
             <p>
               One significant realization I had was the rapid evolution of
-              programming languages and frameworks. I discovered that syntax from
-              courses created 2-5 years ago might no longer work due to changes in
-              specific languages.
+              programming languages and frameworks. I discovered that syntax
+              from courses created 2-5 years ago might no longer work due to
+              changes in specific languages.
             </p>
             <p>
-              Moreover, I gained an understanding of web3 development through the
-              Metacrafters courses. I was able to create Solidity smart contracts
-              deployable in Ethereum and Avalanche blockchains. I also got to
-              practice my presentation skills through code walkthroughs required
-              for the projects.
+              Moreover, I gained an understanding of web3 development through
+              the Metacrafters courses. I was able to create Solidity smart
+              contracts deployable in Ethereum and Avalanche blockchains. I also
+              got to practice my presentation skills through code walkthroughs
+              required for the projects.
             </p>
           </div>
         </div>
         <div className="singleSlide">
           <div className="pinkBorder bg-custom-white/60 w-10/12 mx-auto p-5 flex flex-col gap-5">
             <p>
-              In conclusion, this Practicum engagement allowed me to enhance both
-              my soft skills and hard skills, from creative thinking to the latest
-              technologies in web and mobile development. While it cannot fully
-              replace the experience of on-the-job training with a company, I
-              acquired valuable knowledge that will greatly benefit my future
-              career.
+              In conclusion, this Practicum engagement allowed me to enhance
+              both my soft skills and hard skills, from creative thinking to the
+              latest technologies in web and mobile development. While it cannot
+              fully replace the experience of on-the-job training with a
+              company, I acquired valuable knowledge that will greatly benefit
+              my future career.
             </p>
           </div>
         </div>
         <div ref={appendicesSectionRef} className="singleSlide">
           <h2 className="font-bold">Appendices</h2>
           <div className="mt-8">
-            <a href="/cv.pdf" target="_blank">
+            <a href="/cv2.pdf" target="_blank">
               <p className="flex flex-row items-center gap-2 my-2">
                 <IoIosCodeDownload size="2em" />
                 Competency-Based CV

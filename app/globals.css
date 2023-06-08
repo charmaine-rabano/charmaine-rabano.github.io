@@ -44,9 +44,9 @@
     @apply bg-gradient-to-r from-[#dd7f7a] via-[#b466a7] to-[#006cc1];
   }
   .singleSlide {
-    @apply h-screen p-2 flex flex-col justify-center items-center text-custom-black snap-start;
+    @apply h-screen p-2 pt-5 flex flex-col justify-center items-center text-custom-black snap-start;
   }
   .carousel {
-    @apply flex flex-row gap-5 overflow-auto w-11/12 pb-4 h-2/3;
+    @apply flex flex-row gap-5 overflow-auto w-11/12 pb-4 h-2/3 mt-4;
   }
 }
