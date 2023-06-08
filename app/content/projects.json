@@ -3,7 +3,7 @@
     "title": "Mapúa MCL ACM website",
     "description": "An organizational website for the Mapúa MCL ACM Student Chapter to introduce the organization and post events.",
     "tech": ["React", "Gatsby", "Tailwind CSS", "Netlify CMS"],
-    "github": "https://github.com/MCL-ACM/acm.mcl-ccis.net",
+    "code": "https://github.com/MCL-ACM/acm.mcl-ccis.net",
     "live": "https://acm.mcl-ccis.net/",
     "image": "/images/projects/acm.png"
   },
@@ -18,7 +18,7 @@
       "Xamarin",
       "ASP.NET WebApi"
     ],
-    "github": "https://github.com/LipatJob/SeatSave",
+    "code": "https://github.com/LipatJob/SeatSave",
     "live": "",
     "image": "/images/projects/seatsave.png"
   },
@@ -26,7 +26,7 @@
     "title": "Portfolio website",
     "description": "A portfolio website to showcase my projects.",
     "tech": ["React", "Next.js", "Tailwind CSS"],
-    "github": "https://github.com/charmaine-rabano/my-portfolio",
+    "code": "https://github.com/charmaine-rabano/my-portfolio",
     "live": "https://charmaineeunice.com/",
     "image": "/images/projects/portfolio.png"
   },
@@ -34,7 +34,7 @@
     "title": "Pokedex",
     "description": "A simple catalog website to view Pokémon data using PokéAPI.",
     "tech": ["React", "Next.js", "Tailwind CSS"],
-    "github": "https://github.com/charmaine-rabano/pokedex",
+    "code": "https://github.com/charmaine-rabano/pokedex",
     "live": "https://pokedex.charmaineeunice.com/",
     "image": "/images/projects/pokedex.png"
   }

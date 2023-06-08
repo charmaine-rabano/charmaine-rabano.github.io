@@ -2,6 +2,7 @@ import React from "react";
 import Link from "next/link";
 import Typewriter from "typewriter-effect";
 import { IoIosArrowRoundForward } from "react-icons/io";
+import { SiHtml5, SiCss3, SiTailwindcss, SiBootstrap, SiJavascript, SiReact, SiNextdotjs, SiGatsby, SiVuedotjs, SiCsharp, SiPython, SiMysql, SiSolidity } from "react-icons/si";
 import ProjectItem from "./ProjectItem";
 
 import allProjects from "../content/projects.json";
@@ -35,11 +36,26 @@ export default function MainContentSection() {
           bringing vision into life.{" "}
         </p>
       </div>
+      <div className="mt-10 flex flex-wrap gap-2 justify-center text-3xl">
+        <SiHtml5 />
+        <SiCss3 />
+        <SiTailwindcss />
+        <SiBootstrap />
+        <SiJavascript />
+        <SiReact />
+        <SiNextdotjs />
+        <SiGatsby />
+        <SiVuedotjs />
+        <SiCsharp />
+        <SiPython />
+        <SiMysql />
+        <SiSolidity />
+      </div>
       <div className="mt-52">
         <h2 className="font-bold mb-12">Projects</h2>
         <div>
           {allProjects.map(p => {
-            return <ProjectItem key={p.title} project={p} />
+            return <ProjectItem key={p.title} project={p} first={() => p === allProjects[0]} />
           })}
         </div>
       </div>

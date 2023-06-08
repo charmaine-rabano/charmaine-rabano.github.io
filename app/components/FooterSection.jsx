@@ -18,7 +18,6 @@ export default function FooterSection() {
       <p className="accentText text-sm">
         Designed and Built by Charmaine Eunice Rabano
       </p>
-      <p className="accentText text-sm">(more content coming soon...)</p>
     </div>
   );
 }

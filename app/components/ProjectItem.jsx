@@ -1,13 +1,19 @@
 import React, { useState } from 'react'
 import { IoIosArrowDown } from "react-icons/io";
 
-export default function ProjectItem({ project }) {
-  const [showDetails, setShowDetails] = useState(false);
+export default function ProjectItem({ project, first }) {
+  const [showDetails, setShowDetails] = useState(first);
+
+  const showStyles = "cursor-pointer bg-custom-dark-pink text-custom-white dark:text-custom-black"
+  const hiddenStyles = "cursor-pointer text-custom-dark-pink"
 
   return (
     <div className="pinkBorder mb-5">
-      <div className="bg-custom-dark-pink" onClick={() => setShowDetails(!showDetails)}>
-        <p className="font-Inconsolata text-2xl text-custom-white dark:text-custom-black p-2 flex flex-row justify-between items-center">{project.title}<IoIosArrowDown /></p>
+      <div className={showDetails ? showStyles : hiddenStyles} onClick={() => setShowDetails(!showDetails)}>
+        <p className="font-Inconsolata text-2xl p-2 flex flex-row justify-between items-center">
+          {project.title}
+          <span className={showDetails ? "rotate-180" : ""}><IoIosArrowDown /></span>
+        </p>
       </div>
       {
         showDetails &&
@@ -20,7 +26,7 @@ export default function ProjectItem({ project }) {
             })}
           </div>
           <div className='mt-6 flex flex-row gap-2 justify-center md:justify-end'>
-            {project.github && <a href={project.github} target='_blank' className='btn'>github</a>}
+            {project.code && <a href={project.code} target='_blank' className='btn'>code</a>}
             {project.live && <a href={project.live} target='_blank' className='btn'>live</a>}
           </div>
         </div>
