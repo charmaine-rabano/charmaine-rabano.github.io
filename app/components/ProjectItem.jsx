@@ -48,6 +48,11 @@ export default function ProjectItem({ project, first }) {
                 live
               </a>
             )}
+            {project.video && (
+              <a href={project.video} target="_blank" className="btn">
+                video
+              </a>
+            )}
           </div>
         </div>
       )}

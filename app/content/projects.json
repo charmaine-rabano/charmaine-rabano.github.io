@@ -1,10 +1,11 @@
 [
   {
     "title": "Mapúa MCL ACM website",
-    "description": "An organizational website for the Mapúa MCL ACM Student Chapter to introduce the organization and post events.",
+    "description": "An organizational website for the Mapúa MCL ACM Student Chapter to introduce the organization and post events. Created this project with 2 other people.",
     "tech": ["React", "Gatsby", "Tailwind CSS", "Netlify CMS"],
     "code": "https://github.com/MCL-ACM/acm.mcl-ccis.net",
     "live": "https://acm.mcl-ccis.net/",
+    "video": "",
     "image": "/images/projects/acm.png"
   },
   {
@@ -20,7 +21,26 @@
     ],
     "code": "https://github.com/LipatJob/SeatSave",
     "live": "",
+    "video": "",
     "image": "/images/projects/seatsave.png"
+  },
+  {
+    "title": "Sparse",
+    "description": "A system that utilizes computer vision in monitoring the room occupancy of our school’s library. Created with 3 other people as a Software Engineering 1 course project.",
+    "tech": ["C#", "ASP.NET", "SQL", "Python"],
+    "code": "https://github.com/zoloenma/Sparse-System",
+    "live": "",
+    "video": "",
+    "image": "/images/projects/sparse.png"
+  },
+  {
+    "title": "Treasure Hunt Mobile",
+    "description": "A 2D game where the player collects all the treasure boxes as fast as possible. Created as a project for my Game Design and Development course.",
+    "tech": ["Unity", "C#", "SQLite"],
+    "code": "",
+    "live": "",
+    "video": "",
+    "image": "/images/projects/treasurehunt.png"
   },
   {
     "title": "Portfolio website",
@@ -28,6 +48,7 @@
     "tech": ["React", "Next.js", "Tailwind CSS"],
     "code": "https://github.com/charmaine-rabano/my-portfolio",
     "live": "https://charmaineeunice.com/",
+    "video": "",
     "image": "/images/projects/portfolio.png"
   },
   {
@@ -36,6 +57,52 @@
     "tech": ["React", "Next.js", "Tailwind CSS"],
     "code": "https://github.com/charmaine-rabano/pokedex",
     "live": "https://pokedex.charmaineeunice.com/",
+    "video": "",
     "image": "/images/projects/pokedex.png"
+  },
+  {
+    "title": "Nebula Token",
+    "description": "A Solidity smart contract that creates my own ERC20 token. It has a front-end to allow users to perform functions, but I didn’t give much focus on it. This is a project I made for the Metacrafters ETH PROOF: Intermediate EVM Course. It was also required for me to give a code walkthrough.",
+    "tech": ["Solidity", "React", "Node.js"],
+    "code": "https://github.com/charmaine-rabano/eth-proof-intermediate-project3",
+    "live": "",
+    "video": "https://drive.google.com/file/d/1S2xn0BKqxdct2s9FQMVNoGONYGVFSVs2/view?usp=sharing",
+    "image": "/images/projects/nebulatoken.png"
+  },
+  {
+    "title": "Add to Cart dApp",
+    "description": "A Solidity smart contract that has an add-to-cart functionality. It has a front-end to allow users to perform functions, but I didn’t give much focus on it. This is a project I made for the Metacrafters ETH PROOF: Intermediate EVM Course. It was also required for me to give a code walkthrough.",
+    "tech": ["Solidity", "React", "Node.js"],
+    "code": "https://github.com/charmaine-rabano/eth-proof-intermediate-project2",
+    "live": "",
+    "video": "https://drive.google.com/file/d/1hqwyMY39hdzqIsE62ipGVxcM1vJGyYoc/view?usp=sharing",
+    "image": "/images/projects/addtocart.png"
+  },
+  {
+    "title": "Hair Day website",
+    "description": "A website homepage for a fictional company called “Hair Day”. The final project I submitted for the Meta HTML and CSS in depth course in Coursera.",
+    "tech": ["HTML", "CSS"],
+    "code": "",
+    "live": "",
+    "video": "",
+    "image": "/images/projects/hairday.png"
+  },
+  {
+    "title": "Mantras",
+    "description": "A random app I made that picks the “Manifesting Mantras of the Day” from a set of mantras.",
+    "tech": ["Java"],
+    "code": "",
+    "live": "",
+    "video": "",
+    "image": "/images/projects/mantras.png"
+  },
+  {
+    "title": "Snake Game",
+    "description": "A very simple snake game that I created to learn Python while following a tutorial online.",
+    "tech": ["Python"],
+    "code": "",
+    "live": "",
+    "video": "",
+    "image": "/images/projects/snakegame.png"
   }
 ]
