@@ -3,14 +3,9 @@
 import Image from "next/image";
 import Link from "next/link";
 import React, { useState, useRef } from "react";
-import {
-  IoIosMenu,
-  IoIosArrowRoundBack,
-  IoIosCodeDownload,
-} from "react-icons/io";
+import { IoIosMenu, IoIosArrowRoundBack } from "react-icons/io";
 
 // Images import
-import timeline from "../images/practicum/timeline.png";
 import ux1 from "../images/practicum/output-ux-1.png";
 import ux2 from "../images/practicum/output-ux-2.png";
 import ux3 from "../images/practicum/output-ux-3.png";
@@ -93,12 +88,9 @@ export default function Practicum() {
 
   const startSectionRef = useRef();
   const overviewSectionRef = useRef();
-  const timelineSectionRef = useRef();
   const outputSectionRef = useRef();
   const certSectionRef = useRef();
   const synthesisSectionRef = useRef();
-  const appendicesSectionRef = useRef();
-  const downloadSectionRef = useRef();
 
   function scrollToSection(sectionRef) {
     sectionRef.current.scrollIntoView({ behavior: "smooth" });
@@ -145,12 +137,6 @@ export default function Practicum() {
                 Overview of the Practicum Engagement
               </button>
               <button
-                onClick={() => scrollToSection(timelineSectionRef)}
-                className="text-left"
-              >
-                Timeline
-              </button>
-              <button
                 onClick={() => scrollToSection(outputSectionRef)}
                 className="text-left"
               >
@@ -167,18 +153,6 @@ export default function Practicum() {
                 className="text-left"
               >
                 Synthesis of the Practicum Engagement
-              </button>
-              <button
-                onClick={() => scrollToSection(appendicesSectionRef)}
-                className="text-left"
-              >
-                Appendices
-              </button>
-              <button
-                onClick={() => scrollToSection(downloadSectionRef)}
-                className="text-left"
-              >
-                Download Final Report Document
               </button>
             </div>
           )}
@@ -236,12 +210,6 @@ export default function Practicum() {
               </div>
             </div>
           </div>
-        </div>
-        <div ref={timelineSectionRef} className="singleSlide">
-          <h2 className="font-bold">Timeline</h2>
-        </div>
-        <div className="singleSlide">
-          <Image src={timeline} alt="" className="h-2/3 w-auto" />
         </div>
         <div ref={outputSectionRef} className="singleSlide">
           <h2 className="font-bold">Presentation of Output</h2>
@@ -571,50 +539,6 @@ export default function Practicum() {
               my future career.
             </p>
           </div>
-        </div>
-        <div ref={appendicesSectionRef} className="singleSlide">
-          <h2 className="font-bold">Appendices</h2>
-          <div className="mt-8">
-            <a href="/cv2.pdf" target="_blank">
-              <p className="flex flex-row items-center gap-2 my-2">
-                <IoIosCodeDownload size="2em" />
-                Competency-Based CV
-              </p>
-            </a>
-            <a href="/practicum/acceptance-form.pdf" target="_blank">
-              <p className="flex flex-row items-center gap-2 my-2">
-                <IoIosCodeDownload size="2em" />
-                Practicum Confirmation and Acceptance Form
-              </p>
-            </a>
-            <a href="/practicum/liability-waiver.pdf" target="_blank">
-              <p className="flex flex-row items-center gap-2 my-2">
-                <IoIosCodeDownload size="2em" />
-                Student Training Agreement and Liability Waiver
-              </p>
-            </a>
-            <a href="/practicum/learning-path-proposal.pdf" target="_blank">
-              <p className="flex flex-row items-center gap-2 my-2">
-                <IoIosCodeDownload size="2em" />
-                Learning Path Proposal
-              </p>
-            </a>
-            <a href="/practicum/weekly-journal.pdf" target="_blank">
-              <p className="flex flex-row items-center gap-2 my-2">
-                <IoIosCodeDownload size="2em" />
-                Complete Weekly Journal
-              </p>
-            </a>
-          </div>
-        </div>
-        <div ref={downloadSectionRef} className="singleSlide">
-          <h2 className="font-bold">Download</h2>
-          <a href="/practicum/final-report.pdf" target="_blank">
-            <p className="flex flex-row items-center gap-2 mt-8">
-              <IoIosCodeDownload size="2em" />
-              Final Report Document
-            </p>
-          </a>
         </div>
       </main>
     </>
