@@ -25,7 +25,7 @@ export const skillRows: SkillRow[] = [
   {
     key: "On real projects",
     kind: "prose",
-    text: "Postgres, Prisma, Supabase, Firebase, Auth.js, Figma to code, design systems and Storybook, App Store and Google Play releases, RevenueCat, Vercel, GitHub Actions, WordPress themes, ACF, Shopify themes, PHP, MySQL, Vite, GSAP, Playwright, Jest, Vitest, accessibility",
+    text: "Postgres, Prisma, Supabase, Firebase, Auth.js, Figma to code, design systems and Storybook, App Store and Google Play releases, RevenueCat, Vercel, GitHub Actions, WordPress themes, ACF, Shopify themes, PHP, MySQL, Vite, GSAP, Playwright, Jest, accessibility",
   },
   {
     key: "AI tooling",

@@ -15,7 +15,7 @@ export const roles: {
       "Full-time front-end developer, building products for a software company's clients. That code is private, so there are no links here. I'm happy to walk through it on a call.",
       {
         strong: "K-12 education platform.",
-        rest: " One Next.js app serving five different roles, from students to district admins. I led the front end and wrote the shared component library.",
+        rest: " One Next.js app serving five different roles, from students to district admins. I wrote most of the front end, including the shared component library.",
       },
       {
         strong: "Veterinary practice-management platform, web and mobile.",
